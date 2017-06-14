@@ -1,22 +1,7 @@
 # <!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title>Course Listing APP</title>
-</head>
-
+<html
 <body>
-    {% if courselist %}
-        <h2>List of Courses</h2>
-        <ol>
-            {% for course  in courselist %}
-                <li> {{ course.title}} </li>                    
-            {% endfor %}
-        </ol>
-
-    {% else %}
-        <strong>There are no available courses!</strong>
-    {% endif %}
+  Eye Tracking Software using gaze as an input device for interacting with computer
 </body>
 </html>
 
